@@ -6,9 +6,9 @@ import samedayshade from "../assets/images/png/same-day-shade.png";
 
 const Sameday = () => {
   return (
-    <section className="page_bg py-5">
+    <section className="page_bg pb-5 pt-md-5">
       <Container>
-        <Row className="align-items-center justify-content-between">
+        <Row className="align-items-center justify-content-between py-md-5">
           <Col md={4}>
             <div className="position-relative">
               <img
@@ -24,54 +24,60 @@ const Sameday = () => {
             </div>
           </Col>
           <Col md={7}>
-            <div className="row">
-              <div className="col-6">
-                <div className="d-flex gap-2 align-items-center">
-                  <img src={samedaydelivery} alt="samedaydelivery" />
-                  <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
-                    Same Day Delivery
-                  </p>
+            <div
+              data-aos="fade-down"
+              data-aos-easing="linear"
+              data-aos-duration="1500"
+            >
+              <div className="row">
+                <div className="col-6">
+                  <div className="d-flex gap-2 align-items-center">
+                    <img src={samedaydelivery} alt="samedaydelivery" />
+                    <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
+                      Same Day Delivery
+                    </p>
+                  </div>
+                  <div className="d-flex gap-2 align-items-center mt-3">
+                    <img src={samedaydelivery} alt="samedaydelivery" />
+                    <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
+                      Discreet packaging
+                    </p>
+                  </div>
+                  <div className="d-flex gap-2 align-items-center mt-3">
+                    <img src={samedaydelivery} alt="samedaydelivery" />
+                    <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
+                      Premium Marijuana Buds
+                    </p>
+                  </div>
+                  <div className="d-flex gap-2 align-items-center mt-3">
+                    <img src={samedaydelivery} alt="samedaydelivery" />
+                    <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
+                      Collect Rewards
+                    </p>
+                  </div>
                 </div>
-                <div className="d-flex gap-2 align-items-center mt-3">
-                  <img src={samedaydelivery} alt="samedaydelivery" />
-                  <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
-                    Discreet packaging
-                  </p>
-                </div>
-                <div className="d-flex gap-2 align-items-center mt-3">
-                  <img src={samedaydelivery} alt="samedaydelivery" />
-                  <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
-                    Premium Marijuana Buds
-                  </p>
-                </div>
-                <div className="d-flex gap-2 align-items-center mt-3">
-                  <img src={samedaydelivery} alt="samedaydelivery" />
-                  <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
-                    Collect Rewards
-                  </p>
-                </div>
-              </div>
 
-              <div className="col-6">
-                <div className="d-flex gap-2 align-items-center">
-                  <img src={samedaydelivery} alt="samedaydelivery" />
-                  <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
-                    Canada Wide Mail Orders
-                  </p>
+                <div className="col-6">
+                  <div className="d-flex gap-2 align-items-center">
+                    <img src={samedaydelivery} alt="samedaydelivery" />
+                    <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
+                      Canada Wide Mail Orders
+                    </p>
+                  </div>
+                  <div className="d-flex gap-2 align-items-center mt-3">
+                    <img src={samedaydelivery} alt="samedaydelivery" />
+                    <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
+                      19+
+                    </p>
+                  </div>
+                  <div className="d-flex gap-2 align-items-center mt-3">
+                    <img src={samedaydelivery} alt="samedaydelivery" />
+                    <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
+                      Secure Transactions
+                    </p>
+                  </div>
+                  <div className="d-flex gap-2 align-items-center mt-3"></div>
                 </div>
-                <div className="d-flex gap-2 align-items-center mt-3">
-                  <img src={samedaydelivery} alt="samedaydelivery" />
-                  <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
-                    19+
-                  </p>
-                </div>
-                <div className="d-flex gap-2 align-items-center mt-3">
-                  <img src={samedaydelivery} alt="samedaydelivery" />
-                  <p className="ff_montserrat fw_semibold fs_md text-white mb-0">
-                    Secure Transactions
-                  </p>
-                </div>
-                <div className="d-flex gap-2 align-items-center mt-3"></div>
               </div>
             </div>
           </Col>

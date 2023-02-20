@@ -226,6 +226,12 @@
 .btn-close {
   background-image: url(https://p.kindpng.com/picc/s/226-2260261_x-math-multiple-sign-hd-png-download.png) !important;
 }
+.icon_hover {
+  transition: all 300ms linear;
+}
+.icon_hover:hover {
+  scale: 1.1;
+}
 /* -----------MAIN SECTION --------- */
 .shade_set {
   left: 0;
@@ -237,6 +243,13 @@
 }
 .z_index_2 {
   z-index: 2;
+}
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  display: none !important;
+}
+.carousel-indicators {
+  bottom: -35px !important;
 }
 /* -------ABOUT SECTION ------------- */
 .about_box {
@@ -322,8 +335,8 @@
   border-radius: 10px;
 }
 .givepanda_shade_set {
-  right: 30px;
-  bottom: 0;
+  right: 10px;
+  bottom: -150px;
 }
 
 /* ----------------SAME DAY DELIVERY  SECTION ------------ */
@@ -363,6 +376,9 @@
 .overlay_mailorder {
   top: -50px;
 }
+.mt_70 {
+  margin-top: 70px;
+}
 /* --------------CANNABIS SECTION ------------------- */
 .cannabis_bg {
   background-image: url(../src//assets//images//png/cannabis-bg.png);
@@ -378,7 +394,7 @@
   bottom: 5px;
 }
 .twinkleimg_set {
-  bottom: 0 !important;
+  bottom: 70px !important;
   left: 0;
   right: 0;
 }
@@ -388,27 +404,13 @@
 
 @keyframes cloud {
   0% {
-    top: 140px;
+    top: 190px;
   }
   50% {
-    top: 170px;
+    top: 230px;
   }
   100% {
-    top: 140px;
-  }
-}
-.cloud2_animation {
-  animation: cloud1 3s linear 2s infinite alternate;
-}
-@keyframes cloud1 {
-  0% {
-    top: 200px;
-  }
-  50% {
-    top: 330px;
-  }
-  100% {
-    top: 200px;
+    top: 190px;
   }
 }
 .cloud2_animation {
@@ -416,13 +418,13 @@
 }
 @keyframes cloud2 {
   0% {
-    top: 280px;
+    top: 320px;
   }
   50% {
-    top: 330px;
+    top: 370px;
   }
   100% {
-    top: 280px;
+    top: 320px;
   }
 }
 .cloud3_animation {
@@ -430,13 +432,13 @@
 }
 @keyframes cloud3 {
   0% {
-    top: 170px;
-  }
-  50% {
     top: 200px;
   }
+  50% {
+    top: 240px;
+  }
   100% {
-    top: 170px;
+    top: 200px;
   }
 }
 /* -----------CLASIFICATION SECTION --------------- */
@@ -472,9 +474,17 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.lastsecond_bg {
+  background-image: url(../src/assets/images/png/lastsecong-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 /* ------------------ Hours ---------------------- */
 .border_bottom {
   border-bottom: 1px solid rgba(221, 34, 230, 0.59);
+}
+.cursor_pointer {
+  cursor: pointer;
 }
 /* ----------- FOOTER SECTION -------------- */
 .textc_border {
@@ -497,7 +507,41 @@
   left: 0;
   right: 0;
 }
-
+/*  ------------------CHEADER SECTION ------------------- */
+.Cheader_bg {
+  background-image: url(../src/assets/images/png/Cheader-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.mh_50 {
+  min-height: 50vh;
+}
+/*  -------------------CMAIN SECTION ----------- */
+.cmain_input {
+  outline: none;
+  background: rgba(22, 15, 47, 0.5);
+  border: 1px solid #411a68;
+  backdrop-filter: blur(9px);
+  border-radius: 4px;
+  width: 49%;
+  padding-left: 20px !important;
+}
+.input_color {
+  color: #716d80;
+}
+.cmain_input::placeholder {
+  color: #716d80;
+}
+.input_msg {
+  outline: none;
+  background: rgba(22, 15, 47, 0.5);
+  border: 1px solid #411a68;
+  backdrop-filter: blur(9px);
+  border-radius: 4px;
+  width: 100%;
+  min-height: 107px;
+  padding-left: 20px !important;
+}
 /* --------MEDIA QUERY ---------- */
 @media (min-width: 320px) {
   :root {

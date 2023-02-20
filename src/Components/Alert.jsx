@@ -7,7 +7,7 @@ const Alert = () => {
   return (
     <section className="page_bg py-5 position-relative">
       <img
-        className="position-absolute w-100 twinkleimg_set h-100 d-none d-sm-block"
+        className="position-absolute w-100 twinkleimg_set d-none d-sm-block"
         src={twinkle}
         alt="twinkle"
       />
@@ -37,15 +37,17 @@ const Alert = () => {
         alt="cloud"
       />
       <Container>
-        <div>
-          <h2 className="ff_philosopher fw_bold fs_2xl text-white text-center">
-            Potent Cannabis <span className="clr_1"> Alert</span>
-          </h2>
-          <p className="ff_montserrat fw_regular fs_md text-white text-center">
-            click here to try our most potent hand picked craft cannabis
-          </p>
+        <div data-aos="zoom-in" data-aos-duration="2000">
+          <div className="pt-md-5">
+            <h2 className="ff_philosopher fw_bold fs_2xl text-white text-center">
+              Potent Cannabis <span className="clr_1"> Alert</span>
+            </h2>
+            <p className="ff_montserrat fw_regular fs_md text-white text-center">
+              click here to try our most potent hand picked craft cannabis
+            </p>
+          </div>
         </div>
-        <div className=" d-flex flex-column justify-content-center align-items-center position-relative">
+        <div className=" d-flex flex-column justify-content-center align-items-center position-relative pt-md-5">
           <img className="spaceman_image" src={spaceman} alt="spaceman" />
           <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn position-absolute alertbtn_set">
             Take me to space cannabis

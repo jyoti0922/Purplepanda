@@ -8,7 +8,7 @@ import overlay from "../assets/images/png/header-overlay.png";
 import { NAVCART, NAVSEARCH } from "./Icons";
 import { Link } from "react-router-dom";
 
-const Header = () => {
+const Cheader = () => {
   const [navShow, setNavShow] = useState(false);
   if (navShow) {
     document.body.classList.add("overflow-hidden");
@@ -16,7 +16,7 @@ const Header = () => {
     document.body.classList.remove("overflow-hidden");
   }
   return (
-    <section className="header_bg mh_50 mh_xl_100 position-relative d-flex flex-column">
+    <section className="Cheader_bg mh_50 position-relative d-flex flex-column">
       <img
         className="position-absolute overlay_set d-none d-lg-block"
         src={overlay}
@@ -199,40 +199,20 @@ const Header = () => {
         </div>
       </nav>
       {/* HERO-START */}
-      <article className="flex-grow-1 d-flex justify-content-center align-items-center">
+      <article className="flex-grow-1 d-flex flex-column justify-content-center align-items-center position-relative z_index_2">
         <Container>
-          <Row className="align-items-center">
-            <Col md={6}>
-              <div data-aos="zoom-in" data-aos-duration="2000">
-                <div className="text-center text-md-start">
-                  <h1 className="ff_philosopher fw_bold fs_4xl text-white">
-                    Setting a<span className="clr_1"> ‘High’ </span>Standard
-                  </h1>
-                  <p className="ff_montserrat fw_regular fs_md text-white">
-                    We at Purple Panda are passionate about becoming the best
-                    <span className="d-lg-block">
-                      online weed dispensary Canada has ever seen. We believe in
-                    </span>
-                    good products, fair pricing, and top-notch customer service
-                  </p>
-                  <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-3 mt-xl-5">
-                    SIGN IN
-                  </button>
-                </div>
-              </div>
-            </Col>
-            <Col md={6}>
-              <div data-aos="zoom-in" data-aos-duration="3000">
-                <div className=" mb-5 mb-md-0">
-                  <img className="w-100" src={heroimage} alt="heroimage" />
-                </div>
-              </div>
-            </Col>
-          </Row>
+          <div data-aos="zoom-in" data-aos-duration="2000">
+            <h2 className="ff_philosopher fw_bold fs_2xl text-white text-center">
+              Contact
+            </h2>
+            <p className="ff_montserrat fw_regular fw_md text-white mt-2 text-center">
+              Home > Contact
+            </p>
+          </div>
         </Container>
       </article>
     </section>
   );
 };
 
-export default Header;
+export default Cheader;

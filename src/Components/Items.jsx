@@ -6,9 +6,9 @@ import image3 from "../assets/images/png/items3-img.png";
 
 const Items = () => {
   return (
-    <section className="item-bg py-5">
+    <section className="item-bg py-5" id="shop">
       <Container>
-        <div>
+        <div data-aos="zoom-in" data-aos-duration="2000">
           <h2 className="ff_philosopher fw_bold fs_2xl text-white text-center">
             Most <span className="clr_1">Popular </span>Items
           </h2>
@@ -19,56 +19,62 @@ const Items = () => {
             </span>
           </p>
         </div>
-        <Row className="pt-5 pb-lg-5 justify-content-center">
-          <Col sm={6} md={4} lg={3} className="mb-5 mb-lg-0">
-            <div className="givepanda_row_bg px-2 pt-3 pb-4 h-100">
-              <img className="w-100" src={image1} alt="image1" />
-              <p className="ff_montserrat fw_regular fs_lg text-white mt-3 mb-0">
-                Stoner Patch(500mg)
-              </p>
-              <p className="ff_montserrat fw_bold fs_lg clr_1">$20.00</p>
-              <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-4">
-                ADD TO CART
-              </button>
-            </div>
-          </Col>
-          <Col sm={6} md={4} lg={3} className="mb-5 mb-lg-0">
-            <div className="givepanda_row_bg px-2 pt-3 pb-4 h-100">
-              <img className="w-100" src={image2} alt="image2" />
-              <p className="ff_montserrat fw_regular fs_lg text-white mt-3 mb-0">
-                Stoner Patch(500mg)
-              </p>
-              <p className="ff_montserrat fw_bold fs_lg clr_1">$20.00</p>
-              <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-4">
-                ADD TO CART
-              </button>
-            </div>
-          </Col>
-          <Col sm={6} md={4} lg={3} className="mb-5 mb-lg-0">
-            <div className="givepanda_row_bg px-2 pt-3 pb-4 h-100">
-              <img className="w-100" src={image3} alt="image3" />
-              <p className="ff_montserrat fw_regular fs_lg text-white mt-3 mb-0">
-                Stoner Patch(500mg)
-              </p>
-              <p className="ff_montserrat fw_bold fs_lg clr_1">$20.00</p>
-              <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-4">
-                ADD TO CART
-              </button>
-            </div>
-          </Col>
-          <Col sm={6} md={4} lg={3} className="mb-5 mb-lg-0">
-            <div className="givepanda_row_bg px-2 pt-3 pb-4 h-100">
-              <img className="w-100" src={image3} alt="image3" />
-              <p className="ff_montserrat fw_regular fs_lg text-white mt-3 mb-0">
-                Stoner Patch(500mg)
-              </p>
-              <p className="ff_montserrat fw_bold fs_lg clr_1">$20.00</p>
-              <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-4">
-                ADD TO CART
-              </button>
-            </div>
-          </Col>
-        </Row>
+        <div
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
+        >
+          <Row className="pt-5 pb-lg-5 justify-content-center">
+            <Col sm={6} md={4} lg={3} className="mb-5 mb-lg-0">
+              <div className="givepanda_row_bg px-2 pt-3 pb-4 h-100">
+                <img className="w-100" src={image1} alt="image1" />
+                <p className="ff_montserrat fw_regular fs_lg text-white mt-3 mb-0">
+                  Stoner Patch(500mg)
+                </p>
+                <p className="ff_montserrat fw_bold fs_lg clr_1">$20.00</p>
+                <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-4">
+                  ADD TO CART
+                </button>
+              </div>
+            </Col>
+            <Col sm={6} md={4} lg={3} className="mb-5 mb-lg-0">
+              <div className="givepanda_row_bg px-2 pt-3 pb-4 h-100">
+                <img className="w-100" src={image2} alt="image2" />
+                <p className="ff_montserrat fw_regular fs_lg text-white mt-3 mb-0">
+                  Stoner Patch(500mg)
+                </p>
+                <p className="ff_montserrat fw_bold fs_lg clr_1">$20.00</p>
+                <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-4">
+                  ADD TO CART
+                </button>
+              </div>
+            </Col>
+            <Col sm={6} md={4} lg={3} className="mb-5 mb-lg-0">
+              <div className="givepanda_row_bg px-2 pt-3 pb-4 h-100">
+                <img className="w-100" src={image3} alt="image3" />
+                <p className="ff_montserrat fw_regular fs_lg text-white mt-3 mb-0">
+                  Stoner Patch(500mg)
+                </p>
+                <p className="ff_montserrat fw_bold fs_lg clr_1">$20.00</p>
+                <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-4">
+                  ADD TO CART
+                </button>
+              </div>
+            </Col>
+            <Col sm={6} md={4} lg={3} className="mb-5 mb-lg-0">
+              <div className="givepanda_row_bg px-2 pt-3 pb-4 h-100">
+                <img className="w-100" src={image3} alt="image3" />
+                <p className="ff_montserrat fw_regular fs_lg text-white mt-3 mb-0">
+                  Stoner Patch(500mg)
+                </p>
+                <p className="ff_montserrat fw_bold fs_lg clr_1">$20.00</p>
+                <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-4">
+                  ADD TO CART
+                </button>
+              </div>
+            </Col>
+          </Row>
+        </div>
       </Container>
     </section>
   );
