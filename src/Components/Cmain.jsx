@@ -7,7 +7,7 @@ const Cmain = () => {
   return (
     <section className="page_bg py-5">
       <Container>
-        <Row>
+        <Row className="align-items-center">
           <Col md={6}>
             <div className="mb-5">
               <img className="w-100" src={leaf} alt="leaf" />
