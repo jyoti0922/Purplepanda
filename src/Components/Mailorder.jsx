@@ -16,7 +16,7 @@ const Mailorder = () => {
         alt="overlay"
       />
       <img
-        className="position-absolute ourrange_overflow"
+        className="position-absolute ourrange_overflow z_index_1"
         src={shade}
         alt="shade"
       />
@@ -146,7 +146,7 @@ const Mailorder = () => {
                   </div>
                 </div>
                 <img className="mt-4" src={mailorder3} alt="mailorder3" />
-                <p className="ff_montserrat fw_regular fs_md text-white opacity_1 mt-3">
+                <p className="ff_montserrat fw_regular fs_md text-white opacity_1 mt-3 position-relative z_index_2">
                   Register for an account first, then head on other to our shop
                   selection
                 </p>

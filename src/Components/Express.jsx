@@ -15,7 +15,7 @@ const Express = () => {
           <Col md={5}>
             <div data-aos="flip-right" data-aos-duration="1500">
               <div className="about_box">
-                <h2 className="ff_philosopher fw_regular fs_2xl text-white">
+                <h2 className="ff_philosopher fw_regular fs_2xl text-white position-relative z_index_2">
                   <span className="clr_1">Express</span> Cannabis Delivery
                 </h2>
                 <p className="ff_montserrat fw_regular fs_md text-white mb-0 mt-3">

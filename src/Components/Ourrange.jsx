@@ -18,7 +18,7 @@ const Ourrange = () => {
         alt="leafleft"
       />
       <img
-        className="position-absolute ourrange_overflow"
+        className="position-absolute ourrange_overflow z_index_1"
         src={shade}
         alt="shade"
       />

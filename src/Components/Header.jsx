@@ -94,7 +94,7 @@ const Header = () => {
                   FAQ
                 </a>
               </li>
-              <li className="icon_hover">
+              <li>
                 <a href="#testimonial" className=" search_btn">
                   <input
                     type="text"
