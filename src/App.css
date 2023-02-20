@@ -212,6 +212,7 @@
 .signin_btn:hover {
   color: #f020f0 !important;
   background: #ffffff !important;
+  border: 1px solid #ffffff !important;
 }
 .top_20 {
   top: 20px;
@@ -290,15 +291,6 @@
 }
 .object_fit_cover {
   object-fit: cover;
-}
-.gridbox1_set {
-  padding-bottom: 100px;
-}
-.gridbox3_set {
-  margin-top: -100px;
-}
-.gridbox5_set {
-  margin-top: -20px;
 }
 /* --------OURRANGE SECTION ------------ */
 .ourrange_bg {
@@ -701,6 +693,15 @@
   .cloud5_set {
     right: 0px;
     top: 200px;
+  }
+  .gridbox1_set {
+    padding-bottom: 100px;
+  }
+  .gridbox3_set {
+    margin-top: -100px;
+  }
+  .gridbox5_set {
+    margin-top: -20px;
   }
 }
 @media (min-width: 1024px) {
