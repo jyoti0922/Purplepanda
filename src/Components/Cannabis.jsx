@@ -69,7 +69,7 @@ const Cannabis = () => {
           </Col>
           <Col md={5}>
             <div className="d-grid gap-2">
-              <div className="gridbox_1">
+              <div className="gridbox_1 gridbox1_set">
                 <img
                   className="w-100  object_fit_cover"
                   src={cannabis1}
@@ -83,7 +83,7 @@ const Cannabis = () => {
                   alt="cannabis2"
                 />
               </div>
-              <div className="gridbox_3">
+              <div className="gridbox_3 gridbox3_set">
                 <img
                   className="w-100 object_fit_cover"
                   src={cannabis3}
@@ -97,7 +97,7 @@ const Cannabis = () => {
                   alt="cannabis4"
                 />
               </div>
-              <div className="gridbox_5">
+              <div className="gridbox_5 gridbox5_set">
                 <img
                   className="w-100 object_fit_cover"
                   src={cannabis5}

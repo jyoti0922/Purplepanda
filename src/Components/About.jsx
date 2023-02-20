@@ -40,10 +40,10 @@ const About = () => {
             </div>
           </Col>
           <Col md={5}>
-            <div className="d-grid gap-2">
-              <div className="gridbox_1">
+            <div className="d-grid gap-2 ">
+              <div className="gridbox_1 gridbox1_set">
                 <img
-                  className="w-100  object_fit_cover"
+                  className="w-100 object_fit_cover"
                   src={about1}
                   alt="about1"
                 />
@@ -55,7 +55,7 @@ const About = () => {
                   alt="about2"
                 />
               </div>
-              <div className="gridbox_3">
+              <div className="gridbox_3 gridbox3_set">
                 <img
                   className="w-100 object_fit_cover"
                   src={about3}
@@ -69,7 +69,7 @@ const About = () => {
                   alt="about4"
                 />
               </div>
-              <div className="gridbox_5">
+              <div className="gridbox_5 gridbox5_set">
                 <img
                   className="w-100 object_fit_cover"
                   src={about5}

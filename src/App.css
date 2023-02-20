@@ -291,6 +291,15 @@
 .object_fit_cover {
   object-fit: cover;
 }
+.gridbox1_set {
+  padding-bottom: 100px;
+}
+.gridbox3_set {
+  margin-top: -100px;
+}
+.gridbox5_set {
+  margin-top: -20px;
+}
 /* --------OURRANGE SECTION ------------ */
 .ourrange_bg {
   background: rgba(22, 15, 47, 0.5);
