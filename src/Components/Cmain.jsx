@@ -66,7 +66,7 @@ const Cmain = () => {
                   <input
                     type="text"
                     placeholder="Message..."
-                    className="input_msg"
+                    className="input_msg ff_montserrat fw_regular fs_md  input_color py-2"
                   />
                 </Form>
                 <button className="ff_montserrat fw_bold fs_xmd text-white signin_btn mt-3 mt-lg-5">
